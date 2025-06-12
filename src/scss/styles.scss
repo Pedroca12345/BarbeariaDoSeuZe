@@ -1,0 +1,8 @@
+// Import all of Bootstrap's CSS
+@import "~bootstrap/scss/bootstrap";
+
+$body-bg: #262626;
+
+body {
+  background-color: $body-bg;
+}
