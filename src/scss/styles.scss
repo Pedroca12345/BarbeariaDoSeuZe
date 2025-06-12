@@ -2,7 +2,51 @@
 @import "~bootstrap/scss/bootstrap";
 
 $body-bg: #262626;
+$primary-yellow: #F4E409;
+$secondary-yellow: #DBCC00;
 
 body {
   background-color: $body-bg;
+}
+
+header {
+  background-color: $body-bg;
+}
+
+a, 
+a:link,
+a:visited,
+a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-link {
+  position: relative;
+}
+
+.menu-link::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  background-color: $primary-yellow;
+  transition: all .3s ease-in-out;
+}
+
+.menu-link:hover::after {
+  width: 50%;
+}
+
+.cta-button {
+  border: none;
+  background-color: $primary-yellow;
+  border-radius: 10px;
+  transition: all .3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: $secondary-yellow;
 }
