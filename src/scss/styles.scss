@@ -7,6 +7,7 @@ $secondary-yellow: #DBCC00;
 
 body {
   background-color: $body-bg;
+  margin-top: 90px;
 }
 
 header {
@@ -47,6 +48,35 @@ a:active {
   transition: all .3s ease-in-out;
 }
 
-.cta-button:hover {
+.cta-button:hover,
+.cta-home-button:hover {
   background-color: $secondary-yellow;
+}
+
+.main-cta {
+  background: url("../assets/images/homeBackground.png") no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  height: 100vh;
+}
+
+.cta-home-text {
+  text-align: center;
+  width: 500px;
+}
+
+.cta-home-button {
+  border: none;
+  background-color: $primary-yellow;
+  border-radius: 10px;
+  transition: all .3s ease-in-out;
+}
+
+.home-social a {
+  font-size: 32px;
+  transition: transform .3s ease-in-out;
+}
+
+.home-social a:hover {
+  transform: scale(1.1);
 }
