@@ -56,7 +56,6 @@ a:active {
 .main-cta {
   background: url("../assets/images/homeBackground.png") no-repeat;
   background-size: cover;
-  object-fit: cover;
   height: 100vh;
 }
 
@@ -79,4 +78,22 @@ a:active {
 
 .home-social a:hover {
   transform: scale(1.1);
+}
+
+.team-section {
+  background: url("../assets/images/teamBackground.png") no-repeat;
+  background-size: cover;
+  height: 75vh;
+}
+
+.team-section-title,
+.profile-name {
+  color: #ffffff;
+}
+
+.profile {
+  width: 300px;
+  background-color: $body-bg;
+  border-radius: 10px;
+  box-shadow: #000 0px 0px 10px;
 }
