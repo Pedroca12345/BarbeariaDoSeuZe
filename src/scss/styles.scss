@@ -89,7 +89,11 @@ a:active {
 .section-title-white,
 .profile-name,
 .service-title h3,
-.service-description p  {
+.service-description p,
+.address h1,
+.address p,
+.address i,
+.footer-contact {
   color: #ffffff;
 }
 
@@ -113,4 +117,8 @@ a:active {
 
 .service-description {
   width: 200px;
+}
+
+.address a:hover {
+  text-decoration: underline;
 }
