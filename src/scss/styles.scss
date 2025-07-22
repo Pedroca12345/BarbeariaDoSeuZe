@@ -83,11 +83,13 @@ a:active {
 .team-section {
   background: url("../assets/images/teamBackground.png") no-repeat;
   background-size: cover;
-  height: 75vh;
+  height: 80vh;
 }
 
-.team-section-title,
-.profile-name {
+.section-title-white,
+.profile-name,
+.service-title h3,
+.service-description p  {
   color: #ffffff;
 }
 
@@ -96,4 +98,19 @@ a:active {
   background-color: $body-bg;
   border-radius: 10px;
   box-shadow: #000 0px 0px 10px;
+}
+
+.service-section {
+  height: 80vh;
+}
+
+.service-cricle {
+  height: 190px;
+  width: 190px;
+  border: 2px solid $primary-yellow;
+  border-radius: 50%;
+}
+
+.service-description {
+  width: 200px;
 }
