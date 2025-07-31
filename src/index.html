@@ -10,38 +10,51 @@
 <body>
 
   <header class="w-100 fixed-top start-0">
-    <div class="container w-100 py-3 d-flex justify-content-center align-items-center">
+    <div class="container w-100 py-3 d-flex">
 
-      <nav class="d-flex w-100 justify-content-between align-items-center">
+      <nav class="navbar navbar-expand-lg d-flex w-100">
 
-        <div class="logo">
+        <div class="container-fluid d-flex align-items-center">
 
-          <a href="">
-            <img src="assets/images/logo.png" alt="Logotipo do site">
-          </a>
+          <div class="logo  mb-3">
+
+            <a class="navbar-brand" href="">
+              <img src="assets/images/logo.png" alt="Logotipo do site">
+            </a>
+
+          </div>
+
+          <div class="navbar-header">
+
+            <button  class="navbar-toggler menu-button py-3 px-3" data-bs-toggle="collapse"
+              data-bs-target="#menu-links">
+              <i class="fa-solid fa-bars"></i>
+            </button>
+
+          </div>
+
+          <div class="menu collapse navbar-collapse justify-content-center" id="menu-links">
+
+            <ul class="navbar-nav d-flex gap-5">
+              <li class="nav-item">
+                <a href="#home" class="text-white menu-link">Inicío</a>
+              </li>
+              <li class="nav-item">
+                <a href="#team" class="text-white menu-link">Equipe</a>
+              </li>
+              <li class="nav-item">
+                <a href="#service" class="text-white menu-link">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="text-white menu-link">Contato</a>
+              </li>
+            </ul>
+
+          </div>
 
         </div>
 
-        <div class="menu">
-
-          <ul class="d-flex gap-5">
-            <li>
-              <a href="#home" class="text-white menu-link">Inicío</a>
-            </li>
-            <li>
-              <a href="#team" class="text-white menu-link">Equipe</a>
-            </li>
-            <li>
-              <a href="#service" class="text-white menu-link">Serviços</a>
-            </li>
-            <li>
-              <a href="#contact" class="text-white menu-link">Contato</a>
-            </li>
-          </ul>
-
-        </div>
-
-        <div class="cta-button-container">
+        <div class="navbar-collapse collapse cta-button-container">
           <button class="cta-button py-2 px-3">
             Agendar horário
           </button>
@@ -246,11 +259,11 @@
   </main>
 
   <footer id="contact">
-    <div class="container d-flex justify-content-between">
+    <div class="container d-flex justify-content-between my-5">
       <div class="address">
         <h1>Cola na barbearia!</h1>
         <p>Rua 25, conj. 10, lote 3</p>
-        <a href="/"><i class="fa-solid fa-location-dot"></i>  Localização</a>
+        <a href="/"><i class="fa-solid fa-location-dot"></i> Localização</a>
       </div>
 
       <div class="footer-logo d-flex flex-column align-items-center">

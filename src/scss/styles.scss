@@ -22,6 +22,22 @@ a:active {
   text-decoration: none;
 }
 
+.menu-button {
+  color: #ffffff;
+  border-radius: 10px;
+  transition: .3s ease-in-out all;
+}
+
+.navbar-toggler:focus {
+  border: 2px solid #F4E409;
+  outline: none;
+  box-shadow: none;
+}
+
+.menu-button:hover {
+  background-color: rgba($color: #000, $alpha: 0.2);
+}
+
 .menu-link {
   position: relative;
 }
@@ -45,6 +61,7 @@ a:active {
   border: none;
   background-color: $primary-yellow;
   border-radius: 10px;
+  width: 150px;
   transition: all .3s ease-in-out;
 }
 
