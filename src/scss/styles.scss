@@ -114,8 +114,13 @@ a:active {
   color: #ffffff;
 }
 
+.team-section {
+  height: 100vh;
+}
+
 .profile {
-  width: 300px;
+  width: 80%;
+  max-width: 297px;
   background-color: $body-bg;
   border-radius: 10px;
   box-shadow: #000 0px 0px 10px;
