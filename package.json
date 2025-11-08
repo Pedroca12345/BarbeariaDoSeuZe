@@ -6,8 +6,8 @@
   "scripts": {
     "start": "vite",
     "build": "vite build",
-    "predeploy": "npm run build && cp .nojekyll dist/.nojekyll",
-    "deploy": "gh-pages -d dist --dotfiles",
+    "predeploy": "npm run build && touch dist/.nojekyll",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
