@@ -2,9 +2,12 @@
   "name": "sitebarbeariabootstrap",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://pedroca12345.github.io/BarbeariaDoSeuZe/",
   "scripts": {
     "start": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,6 +15,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "sass": "^1.89.2",
     "vite": "^6.3.5"
   },
