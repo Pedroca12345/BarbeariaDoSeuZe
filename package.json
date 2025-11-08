@@ -7,7 +7,7 @@
     "start": "vite",
     "build": "vite build && mkdir -p dist && touch dist/.nojekyll",
     "predeploy": "",
-    "deploy": "gh-pages -d dist --dotfiles",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
